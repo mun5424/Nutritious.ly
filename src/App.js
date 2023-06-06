@@ -3,8 +3,11 @@
 import { useState } from "react";
 
 export default function MyApp() {
-  const [message, setMessage] = useState("");
 
+  function MyButton() { 
+    const [message, setMessage] = useState("");
+
+    
   const setText = (message) => {
     setMessage(message);
   };
@@ -13,8 +16,8 @@ export default function MyApp() {
     return <button disabled={message === ""}>I'm a button</button>;
   };
 
-  return (
-    <div>
+    return (
+      <div>
       <input
         type="text"
         id="message"
@@ -23,5 +26,15 @@ export default function MyApp() {
       />
       {renderButton()}
     </div>
-  );
+    )
+  }
+
+  return (
+    <div>
+      <MyButton/>
+      <MyButton/>
+
+      </div>
+  )
+
 }
