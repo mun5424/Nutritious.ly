@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from'react-bootstrap/Button';
 import food from './data/food.json';
@@ -17,11 +18,14 @@ export default function MyApp() {
       <Card className="card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={item.imageURL} />
             <Card.Body className="card-body">
-                <Card.Title><img className="logo" src={item.logoURL}></img>{item.name}</Card.Title>
+              <div className="card-title-container">
+                <img className="logo" src={item.logoURL}></img>
+                <Card.Title className="card-title"> {item.name}</Card.Title>
+              </div>
                   <div className="card-body">
                   <div className="calories font">Calories<br/> {item.calories}</div>
                   <div className="totalfat font">Total Fat <br/> {item.totalFat}</div>
-                  <div className="saturatedfat font">Saturated Fat <br/> {item.saturatedFat}</div>
+                  <div className="saturatedfat font">Sat Fat <br/> {item.saturatedFat}</div>
                   <div className="cholesterol font">Cholesterol <br/> {item.cholesterol}</div>
                   </div>
             </Card.Body>
@@ -33,7 +37,7 @@ export default function MyApp() {
     <Container>
       
       <h1 className="header">
-        Nutrition
+        Nutritious.ly
       </h1>
       <Row> 
       {displayFoodCards(foods)}

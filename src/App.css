@@ -3,21 +3,32 @@
     text-align: center;
 }
 
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
 .card {
     margin: 5px;
+    padding: 1px; 
+}
+
+.card-title-container {
+    
+    vertical-align: center;
+}
+
+.card-title {
+    overflow-wrap: break-word;
 }
 
 .card-body {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px;     
-    gap: 0;         
 }
 
 .card-body > div {
     flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
-    /*demo*/
-    margin-bottom: 5px;
 }
 
 .font {

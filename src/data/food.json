@@ -10,21 +10,21 @@
             "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
         }, 
         {
-            "name": "Box Combo",
-            "calories": 1250, 
-            "totalFat": "68g", 
-            "saturatedFat": "11g", 
-            "cholesterol": "170mg", 
-            "imageURL": "https://images.prismic.io/raisingcanes/NjcwNWUzYzctNzM5My00MmFkLWI1N2EtM2FiZThiYjdiMDA1_363886a1-6d76-4abd-99eb-9e6609c0c247_box_combo_new.png",
+            "name": "3-Finger Combo",
+            "calories": 1020, 
+            "totalFat": "56g", 
+            "saturatedFat": "9g", 
+            "cholesterol": "125mg", 
+            "imageURL": "https://images.prismic.io/raisingcanes/YzA3ZDIwYmUtMzAwYy00YTRkLTk1NjAtMWQ3ZGZhMWE2YzBk_d643d63f-1766-4434-b936-ae6aed6ed7a5_3finger_combo_new.png",
             "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
         }, 
         {
-            "name": "Box Combo",
-            "calories": 1250, 
-            "totalFat": "68g", 
-            "saturatedFat": "11g", 
-            "cholesterol": "170mg", 
-            "imageURL": "https://images.prismic.io/raisingcanes/NjcwNWUzYzctNzM5My00MmFkLWI1N2EtM2FiZThiYjdiMDA1_363886a1-6d76-4abd-99eb-9e6609c0c247_box_combo_new.png",
+            "name": "Sandwich Combo",
+            "calories": 1080, 
+            "totalFat": "54g", 
+            "saturatedFat": "8g", 
+            "cholesterol": "120mg", 
+            "imageURL": "https://images.prismic.io/raisingcanes/NWY1YTA5ZGItMjAzYi00MjI5LTllNzgtOTk5NjJlMWExNzNh_6313f8a3-cb33-4cb4-ade0-636558cc9622_sandwich_combo_new.png",
             "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
         }
     ]
