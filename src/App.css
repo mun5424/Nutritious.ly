@@ -2,3 +2,48 @@
     margin-bottom: 5px;
     text-align: center;
 }
+
+.card {
+    margin: 5px;
+}
+
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;     
+    gap: 0;         
+}
+
+.card-body > div {
+    flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    margin-bottom: 5px;
+}
+
+.font {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(0.95);
+    transition: all 0.3s;
+}
+
+.calories {
+    color: rgba(252,161,71,1);
+}
+
+.totalfat {
+    color: rgba(66,193,110,1);
+}
+
+.saturatedfat {
+    color: rgba(149,149,255,1);
+}
+
+.cholesterol {
+    color: rgba(220,91,183,1);
+}

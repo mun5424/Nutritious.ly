@@ -14,18 +14,17 @@ export default function MyApp() {
   
   function displayFoodCards(foods) {
     return foods.map(item=> (
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={item.imageURL} />
-      <Card.Body>
-        <Card.Title>{item.name}</Card.Title>
-        <Card.Text>
-          <div>Calories: {item.calories}</div>
-          <div>Total Fat: {item.totalFat}</div>
-          <div>Saturated Fat: {item.saturatedFat}</div>
-          <div>Cholesterol: {item.cholesterol}</div>
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
+      <Card className="card" style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={item.imageURL} />
+            <Card.Body className="card-body">
+                <Card.Title><img className="logo" src={item.logoURL}></img>{item.name}</Card.Title>
+                  <div className="card-body">
+                  <div className="calories font">Calories<br/> {item.calories}</div>
+                  <div className="totalfat font">Total Fat <br/> {item.totalFat}</div>
+                  <div className="saturatedfat font">Saturated Fat <br/> {item.saturatedFat}</div>
+                  <div className="cholesterol font">Cholesterol <br/> {item.cholesterol}</div>
+                  </div>
+            </Card.Body>
       </Card>
     ));
   }
