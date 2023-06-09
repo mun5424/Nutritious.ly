@@ -4,13 +4,13 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from'react-bootstrap/Button';
 import food from './data/food.json';
+import './App.css';
 
 
 
 export default function MyApp() {
 
   const foods = [...food.food];
-  console.log(foods);
   
   function displayFoodCards(foods) {
     return foods.map(item=> (
@@ -32,10 +32,14 @@ export default function MyApp() {
 
   return (
     <Container>
-      <h1>
+      
+      <h1 className="header">
         Nutrition
       </h1>
+      <Row> 
       {displayFoodCards(foods)}
+
+      </Row>
     </Container>
   )
 
