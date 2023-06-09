@@ -1,0 +1,11 @@
+{
+    "food": [
+        {
+            "name": "Raising Cane's Box Combo",
+            "calories": 1250, 
+            "totalFat": "68g", 
+            "saturatedFat": "11g", 
+            "cholesterol": "170mg", 
+            "imageURL": "https://images.prismic.io/raisingcanes/NjcwNWUzYzctNzM5My00MmFkLWI1N2EtM2FiZThiYjdiMDA1_363886a1-6d76-4abd-99eb-9e6609c0c247_box_combo_new.png"
+        } 
+    ]}
