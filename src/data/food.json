@@ -26,6 +26,16 @@
             "cholesterol": "120mg", 
             "imageURL": "https://images.prismic.io/raisingcanes/NWY1YTA5ZGItMjAzYi00MjI5LTllNzgtOTk5NjJlMWExNzNh_6313f8a3-cb33-4cb4-ade0-636558cc9622_sandwich_combo_new.png",
             "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
-        }
+        },
+        {
+            "name": "Chipotle Burrito",
+            "calories": 1080, 
+            "totalFat": "36g", 
+            "saturatedFat": "11g", 
+            "cholesterol": "125mg", 
+            "imageURL": "https://www.chipotle.com/content/dam/chipotle/global/menu/meal-types/cmg-10001-burrito/web-desktop/order.png",
+            "logoURL": "https://www.chipotle.com/content/dam/poc/order/images/logos/cmg-medallion-logo.svg"
+        },
+
     ]
 }
