@@ -36,6 +36,15 @@
             "imageURL": "https://www.chipotle.com/content/dam/chipotle/global/menu/meal-types/cmg-10001-burrito/web-desktop/order.png",
             "logoURL": "https://www.chipotle.com/content/dam/poc/order/images/logos/cmg-medallion-logo.svg"
         },
+        {
+            "name": "Chicken Quesadilla",
+            "calories": 520, 
+            "totalFat": "26g", 
+            "saturatedFat": "13g", 
+            "cholesterol": "75mg", 
+            "imageURL": "https://www.tacobell.com/images/22321_quesadilla_269x269.jpg",
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+        }
 
     ]
 }
