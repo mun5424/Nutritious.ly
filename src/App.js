@@ -17,14 +17,14 @@ export default function MyApp() {
   function renderFoodCards(foods) {
     return foods.map(item=> (
       <Card className="card" style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={item.imageURL} />
+            <Card.Img className="item-image" variant="top" src={item.imageURL} />
             <Card.Body className="card-body">
               <div className="card-title-container">
                 <div className="card-title-logo">
                   <img className="logo" src={item.logoURL}></img>
                 </div>
                 <div className="card-title-text">
-                  <Card.Title className="card-title"> {item.name}</Card.Title>
+                  <h5> {item.name} </h5>
                 </div>
               </div>
                   <div className="card-body">

@@ -18,21 +18,24 @@
 .card {
     margin: 5px;
     padding: 1px; 
+    background-image: linear-gradient(to bottom, #ffece7 0%, #fff5ff 50%);
 }
 
 .card-title-container {
-    
-    vertical-align: center;
+    display: flex;
 }
 
-.card-title {
-    overflow-wrap: break-word;
+.card-title-text {
+    padding: 10px 0px 0px 10px;
+}
+
+.item-image {
+    border-radius: 50%; 
 }
 
 .card-body {
     display: flex;
     flex-wrap: wrap;
-    flex-flow: row wrap;
     align-content: space-between;
     justify-content: space-between;
 }
