@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from'react-bootstrap/Button';
 import food from './data/food.json';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 
 
@@ -13,7 +15,7 @@ export default function MyApp() {
 
   const foods = [...food.food];
   
-  function displayFoodCards(foods) {
+  function renderFoodCards(foods) {
     return foods.map(item=> (
       <Card className="card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={item.imageURL} />
@@ -35,15 +37,21 @@ export default function MyApp() {
 
   return (
     <Container>
-      
-      <h1 className="header">
-        Nutritious.ly
-      </h1>
-      <Row> 
-      {displayFoodCards(foods)}
-
+      <Navbar expand="lg">
+          <Navbar.Brand href="#home"> Nutritious.ly </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          <Navbar.Collapse id="basic-navbar-nav"> 
+            <Nav>
+              <Nav.Link>Home</Nav.Link>
+              <Nav.Link>Food</Nav.Link>
+              <Nav.Link>About</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+      </Navbar>
+      <Row>
+        {renderFoodCards(foods)}
       </Row>
-    </Container>
+      </Container>
   )
 
   
