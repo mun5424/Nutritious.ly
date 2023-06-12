@@ -17,7 +17,6 @@
 
 .card {
     margin: 5px;
-    padding: 1px; 
     background-image: linear-gradient(to bottom, #ffece7 0%, #fff5ff 50%);
 }
 
@@ -29,8 +28,18 @@
     padding: 10px 0px 0px 10px;
 }
 
+.image-container {
+    padding-top: 10px;
+    height: 50%;
+    display: flex;
+}
+
 .item-image {
-    border-radius: 50%; 
+    width: 100%;
+    border-radius: 120px;
+    background-color: white;
+    overflow: hidden;
+
 }
 
 .card-body {
@@ -52,7 +61,7 @@
 }
 
 .card:hover {
-    transform: scale(0.95);
+    transform: scale(0.97);
     transition: all 0.3s;
 }
 

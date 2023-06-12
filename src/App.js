@@ -17,7 +17,9 @@ export default function MyApp() {
   function renderFoodCards(foods) {
     return foods.map(item=> (
       <Card className="card" style={{ width: '18rem' }}>
-            <Card.Img className="item-image" variant="top" src={item.imageURL} />
+            <div className="image-container">
+            <img className="item-image" src={item.imageURL}></img>
+            </div>
             <Card.Body className="card-body">
               <div className="card-title-container">
                 <div className="card-title-logo">
