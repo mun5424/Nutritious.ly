@@ -1,6 +1,13 @@
+@import './font.css';
+
+
 .header {
     margin-bottom: 5px;
     text-align: center;
+}
+
+.header-font-bold {
+    font-family: "Lato-Black";
 }
 
 .logo {
@@ -25,14 +32,17 @@
 .card-body {
     display: flex;
     flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 .card-body > div {
-    flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    flex: 50%;
 }
 
 .font {
-    font-family: inherit;
+    font-family: Lato-Black;
     font-weight: bold;
     font-size: 16px;
     text-align: center;

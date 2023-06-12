@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -21,8 +20,12 @@ export default function MyApp() {
             <Card.Img variant="top" src={item.imageURL} />
             <Card.Body className="card-body">
               <div className="card-title-container">
-                <img className="logo" src={item.logoURL}></img>
-                <Card.Title className="card-title"> {item.name}</Card.Title>
+                <div className="card-title-logo">
+                  <img className="logo" src={item.logoURL}></img>
+                </div>
+                <div className="card-title-text">
+                  <Card.Title className="card-title"> {item.name}</Card.Title>
+                </div>
               </div>
                   <div className="card-body">
                   <div className="calories font">Calories<br/> {item.calories}</div>
@@ -37,7 +40,7 @@ export default function MyApp() {
 
   return (
     <Container>
-      <Navbar expand="lg">
+      <Navbar className="header-font-bold" expand="lg">
           <Navbar.Brand href="#home"> Nutritious.ly </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav"> 

@@ -2,10 +2,10 @@
 @font-face {
     font-family: 'Lato-Black';
     src: local('Lato-Black'),
-         url('./fonts/Lato-Black.ttf') format('woff');
+         url('./fonts/Lato-Black.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Lato-Regular';
     src: local('Lato-Regular'),
-         url('./fonts/Lato-Regular.ttf') format('woff');
+         url('./fonts/Lato-Regular.ttf') format('truetype');
 }
