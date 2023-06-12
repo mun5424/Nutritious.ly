@@ -18,24 +18,36 @@ export default function MyApp() {
     return foods.map(item=> (
       <Card className="card" style={{ width: '18rem' }}>
             <div className="image-container">
-            <img className="item-image" src={item.imageURL}></img>
+              <img className="item-image" src={item.imageURL}></img>
             </div>
-            <Card.Body className="card-body">
+            <div className="card-body">
               <div className="card-title-container">
                 <div className="card-title-logo">
                   <img className="logo" src={item.logoURL}></img>
                 </div>
                 <div className="card-title-text">
-                  <h5> {item.name} </h5>
+                  <span className="item-title"> {item.name}</span>
                 </div>
               </div>
-                  <div className="card-body">
-                  <div className="calories font">Calories<br/> {item.calories}</div>
-                  <div className="totalfat font">Total Fat <br/> {item.totalFat}</div>
-                  <div className="saturatedfat font">Sat Fat <br/> {item.saturatedFat}</div>
-                  <div className="cholesterol font">Cholesterol <br/> {item.cholesterol}</div>
+                <div className="card-body">
+                  <div className="calories detail-justify font"> 
+                  <div>Calories</div>
+                  <div>{item.calories}</div> 
                   </div>
-            </Card.Body>
+                  <div className="totalfat detail-justify font">
+                    <div>Total Fat</div>
+                    <div>{item.totalFat}</div> 
+                  </div>
+                  <div className="saturatedfat detail-justify font">
+                    <div>Sat Fat</div>
+                    <div>{item.saturatedFat}</div> 
+                  </div>
+                  <div className="cholesterol detail-justify font">
+                    <div>Cholesterol</div>
+                    <div>{item.cholesterol}</div>
+                    </div>
+                </div>
+            </div>
       </Card>
     ));
   }
