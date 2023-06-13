@@ -9,3 +9,8 @@
     src: local('Lato-Regular'),
          url('./fonts/Lato-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Righteous-Regular';
+    src: local('Righteous-Regular'),
+         url('./fonts/Righteous-Regular.ttf') format('truetype');
+}

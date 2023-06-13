@@ -73,6 +73,7 @@ export default function MyApp() {
                         </div>
                     </div>
                 </div>
+            <Card.Footer className="card-text-footer">See More</Card.Footer>
           </Card>
       ))
     }
@@ -104,7 +105,13 @@ export default function MyApp() {
   return (
     <Container className="container">
       <Navbar className="header-font-bold" expand="lg">
-          <Navbar.Brand href="#home"> Nutritious.ly </Navbar.Brand>
+          <Navbar.Brand className="brand-font" href="#home"> 
+            Nut
+            <span className="calories">r</span>i
+            <span className="cholesterol">t</span>i
+            <span className="totalfat">o</span>u
+            <span className="saturatedfat">s</span>.ly
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav"> 
             <Nav>
