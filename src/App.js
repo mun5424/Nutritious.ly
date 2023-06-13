@@ -8,14 +8,36 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 import { useState } from 'react';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 
 
 export default function MyApp() {
 
-  const [foods, setFoods] = useState([...food.food]);
+  function shuffleCards(foods) {
+    for (let i = 0; i < foods.length - 1; i++) {
+      let j = i + Math.floor(Math.random() * (foods.length - i));
+      let temp = foods[j];
+      foods[j] = foods[i];
+      foods[i] = temp;
+    }
 
-  
+    return foods;
+  };
+
+  const jsonFoods = food.food;
+
+  const [foods, setFoods] = useState(shuffleCards(jsonFoods));
+
+  function sortBy(orderType) {
+    const sorted = [...foods].sort((a, b) => {
+      return a[orderType] - b[orderType];
+    });
+    setFoods(sorted);
+  }
+
+
   function renderFoodCards(foods) {
     return foods.map(item=> (
       <Card className="card" style={{ width: '18rem' }}>
@@ -34,24 +56,47 @@ export default function MyApp() {
                 <div className="card-body">
                   <div className="calories detail-justify font"> 
                   <div>Calories</div>
-                  <div>{item.calories}</div> 
+                  <div>{item.calories}kcal</div> 
                   </div>
                   <div className="totalfat detail-justify font">
                     <div>Total Fat</div>
-                    <div>{item.totalFat}</div> 
+                    <div>{item.totalFat}g</div> 
                   </div>
                   <div className="saturatedfat detail-justify font">
                     <div>Sat Fat</div>
-                    <div>{item.saturatedFat}</div> 
+                    <div>{item.saturatedFat}g</div> 
                   </div>
                   <div className="cholesterol detail-justify font">
                     <div>Cholesterol</div>
-                    <div>{item.cholesterol}</div>
+                    <div>{item.cholesterol}mg</div>
                     </div>
                 </div>
             </div>
       </Card>
     ));
+  }
+
+  function sortByComponent() {
+    return (
+      <div className="dropdown-container"> 
+        <DropdownButton id="dropdown-basic-button" title="Sort By">
+          <Dropdown.Item onClick={() => sortBy("calories")}>Calories </Dropdown.Item>
+          <Dropdown.Item onClick={() => sortBy("totalFat")}>Total Fat</Dropdown.Item>
+          <Dropdown.Item onClick={() => sortBy("saturatedFat")}>Saturated Fat</Dropdown.Item>
+          <Dropdown.Item onClick={() => sortBy("cholesterol")}>Cholesterol</Dropdown.Item>
+        </DropdownButton>
+      </div> 
+    );
+  }
+
+  function recommendButton() {
+    return (
+      <div className="button-container"> 
+        <Button>
+          Shuffle
+        </Button>
+      </div>
+    );
   }
 
   return (
@@ -68,9 +113,13 @@ export default function MyApp() {
           </Navbar.Collapse>
       </Navbar>
       <Row>
+        {sortByComponent()}
+        {recommendButton()}
+      </Row>
+      <Row>
         {renderFoodCards(foods)}
       </Row>
-      </Container>
+    </Container>
   )
 
   

@@ -3,45 +3,45 @@
         {
             "name": "Box Combo",
             "calories": 1250, 
-            "totalFat": "68g", 
-            "saturatedFat": "11g", 
-            "cholesterol": "170mg", 
+            "totalFat": 68, 
+            "saturatedFat": 11, 
+            "cholesterol": 170, 
             "imageURL": "https://images.prismic.io/raisingcanes/NjcwNWUzYzctNzM5My00MmFkLWI1N2EtM2FiZThiYjdiMDA1_363886a1-6d76-4abd-99eb-9e6609c0c247_box_combo_new.png",
             "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
         }, 
         {
             "name": "3-Finger Combo",
             "calories": 1020, 
-            "totalFat": "56g", 
-            "saturatedFat": "9g", 
-            "cholesterol": "125mg", 
+            "totalFat": 56, 
+            "saturatedFat": 9, 
+            "cholesterol": 125, 
             "imageURL": "https://images.prismic.io/raisingcanes/YzA3ZDIwYmUtMzAwYy00YTRkLTk1NjAtMWQ3ZGZhMWE2YzBk_d643d63f-1766-4434-b936-ae6aed6ed7a5_3finger_combo_new.png",
             "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
         }, 
         {
             "name": "Sandwich Combo",
             "calories": 1080, 
-            "totalFat": "54g", 
-            "saturatedFat": "8g", 
-            "cholesterol": "120mg", 
+            "totalFat": 54, 
+            "saturatedFat": 8, 
+            "cholesterol": 120, 
             "imageURL": "https://images.prismic.io/raisingcanes/NWY1YTA5ZGItMjAzYi00MjI5LTllNzgtOTk5NjJlMWExNzNh_6313f8a3-cb33-4cb4-ade0-636558cc9622_sandwich_combo_new.png",
             "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
         },
         {
             "name": "Chipotle Burrito Al Pastor",
             "calories": 1080, 
-            "totalFat": "36g", 
-            "saturatedFat": "11g", 
-            "cholesterol": "125mg", 
+            "totalFat": 36, 
+            "saturatedFat": 11, 
+            "cholesterol": 125, 
             "imageURL": "https://www.chipotle.com/content/dam/chipotle/global/menu/meal-types/cmg-10001-burrito/web-desktop/order.png",
             "logoURL": "https://www.chipotle.com/content/dam/poc/order/images/logos/cmg-medallion-logo.svg"
         },
         {
             "name": "Chicken Quesadilla",
             "calories": 520, 
-            "totalFat": "26g", 
-            "saturatedFat": "13g", 
-            "cholesterol": "75mg", 
+            "totalFat": 26, 
+            "saturatedFat": 13, 
+            "cholesterol": 75, 
             "imageURL": "https://www.tacobell.com/images/22321_quesadilla_269x269.jpg",
             "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
         }

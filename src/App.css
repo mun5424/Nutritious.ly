@@ -88,6 +88,12 @@
     flex-direction: column;
 }
 
+.dropdown-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px; 
+}
+
 .calories {
     color: rgba(252,161,71,1);
 }
