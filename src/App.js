@@ -7,12 +7,14 @@ import food from './data/food.json';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
+import { useState } from 'react';
 
 
 
 export default function MyApp() {
 
-  const foods = [...food.food];
+  const [foods, setFoods] = useState([...food.food]);
+
   
   function renderFoodCards(foods) {
     return foods.map(item=> (
