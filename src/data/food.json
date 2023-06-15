@@ -116,6 +116,51 @@
             "cholesterol": 45, 
             "imageURL": "https://images.ctfassets.net/12j9yju0rltk/41g5uecHhsxAHuAcByAryN/e47e1e8071d916849845afaeceb521d4/Jr._Bacon_Cheeseburger.png",
             "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+        },
+        {
+            "name": "Dave's Double®",
+            "calories": 860, 
+            "totalFat": 57, 
+            "saturatedFat": 23, 
+            "cholesterol": 135, 
+            "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/2_medium_US_en.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+        },
+        {
+            "name": "Classic Chicken Sandwich",
+            "calories": 490, 
+            "totalFat": 21, 
+            "saturatedFat": 3.5, 
+            "cholesterol": 75, 
+            "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/2900_medium_US_en.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+        },
+        {
+            "name": "10 PC. Chicken Nuggets",
+            "calories": 450, 
+            "totalFat": 29, 
+            "saturatedFat": 6, 
+            "cholesterol": 80, 
+            "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/248_medium_US_en.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+        },
+        {
+            "name": "Chili Cheese Fries",
+            "calories": 590, 
+            "totalFat": 32, 
+            "saturatedFat": 12, 
+            "cholesterol": 50, 
+            "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/435_medium_US_en.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+        },
+        {
+            "name": "Chili & Cheese Baked Potato",
+            "calories": 500, 
+            "totalFat": 14, 
+            "saturatedFat": 7, 
+            "cholesterol": 35, 
+            "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/2165_medium_US_en.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
         }
     ]
 }
