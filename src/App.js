@@ -1,3 +1,5 @@
+
+import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
@@ -5,7 +7,7 @@ import Button from'react-bootstrap/Button';
 import food from './data/food.json';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './App.css';
+import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
@@ -101,7 +103,7 @@ export default function MyApp() {
 
   function navbar() {
     return (
-      <div className="navbar">
+      <Container className="navbar">
         <Navbar className="header-font-bold" expand="lg">
         <Navbar.Brand className="brand-font" href="#home"> 
           Nut
@@ -113,13 +115,26 @@ export default function MyApp() {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav"> 
           <Nav>
-            <Nav.Link>Home</Nav.Link>
             <Nav.Link>Food</Nav.Link>
             <Nav.Link>About</Nav.Link>
           </Nav>
+          
+          {buttonComponents()}
+          <Nav className="navbar-search">
+            
+            <Form className="d-flex">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-success">Search</Button>
+          </Form>
+          </Nav>
         </Navbar.Collapse>
         </Navbar>
-      </div>
+      </Container>
 
     )
   }
@@ -139,7 +154,6 @@ export default function MyApp() {
       {navbar()}
       <div className="container">
         <Row>
-          {buttonComponents()}
         </Row>
         <Row>
           {renderFoodCards(foods)}
