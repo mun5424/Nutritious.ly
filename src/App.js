@@ -18,6 +18,16 @@ export default function MyApp() {
 
   const jsonFoods = food.food;
 
+  const bgColors = [
+  'linear-gradient(to bottom, #fabcbc 0%, #ffe5ff 50%)',
+  'linear-gradient(to bottom, #ffece7 0%, #fff5ff 50%)', 
+  'linear-gradient(to bottom, #f6f6c5 0%, #fff5ff 50%)', 
+  'linear-gradient(to bottom, #cef9bd 0%, #fff5ff 50%)', 
+  'linear-gradient(to bottom, #bfddf8 0%, #fff5ff 50%)', 
+  'linear-gradient(to bottom, #cbcffe 0%, #fff5ff 50%)', 
+  'linear-gradient(to bottom, #f0ceff 0%, #fff5ff 50%)' 
+  ]
+
   const [foods, setFoods] = useState(jsonFoods);
 
   function shuffleCards() {
@@ -39,11 +49,15 @@ export default function MyApp() {
   }
 
 
+  function getRandomGradientColor() {
+    return bgColors[Math.floor(Math.random() * bgColors.length)];
+  }
+
   function renderFoodCards(foods) {
     return (
       <div className="cards-container">
         { foods.map(item=> (
-          <Card className="card" style={{ width: '18rem' }}>
+          <Card className="card" style={{ width: '18rem', backgroundImage: getRandomGradientColor() }}>
                 <div className="image-container">
                   <img className="item-image" src={item.imageURL}></img>
                 </div>
@@ -84,7 +98,7 @@ export default function MyApp() {
     return (
       <div className="buttons-container">
         <div className="button-container"> 
-          <Button onClick={() => shuffleCards()}>
+          <Button variant="outline-info" onClick={() => shuffleCards()}>
             Shuffle
           </Button>
         </div>
@@ -141,8 +155,8 @@ export default function MyApp() {
 
   function footer() {
     return (
-      <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
-      <div class="container text-center">
+      <footer id="sticky-footer" className="flex-shrink-0 py-4 bg-dark text-white-50">
+      <div className="text-center">
         <small> Created by Charlie Oh @mun5424. This application is for educational purposes and not for any kind of monetary profit. </small>
       </div>
     </footer>
@@ -153,8 +167,6 @@ export default function MyApp() {
     <div>
       {navbar()}
       <div className="container">
-        <Row>
-        </Row>
         <Row>
           {renderFoodCards(foods)}
         </Row>

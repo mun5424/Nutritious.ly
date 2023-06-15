@@ -36,7 +36,7 @@
 .card {
     margin: 5px;
     padding-top: 10px;
-    background-image: linear-gradient(to bottom, #ffece7 0%, #fff5ff 50%);
+    /* background-image: linear-gradient(to bottom, #ffece7 0%, #fff5ff 50%); */
 }
 
 .card-title-container {
@@ -119,8 +119,8 @@
 
 #dropdown-basic-button {
     background-color: white;
-    color: gray;
-    margin-left: 5px;
+    color: black;
+    margin-left: 10px;
 }
 
 
@@ -143,4 +143,29 @@
 
 .cholesterol {
     color: rgba(220,91,183,1);
+}
+
+rainbow {
+    color: #9400D3,
+}
+red {
+    color: linear-gradient(to bottom, #fabcbc 0%, #ffe5ff 50%);
+}
+orange {
+    color: linear-gradient(to bottom, #ffece7 0%, #fff5ff 50%); 
+}
+yellow {
+    color: linear-gradient(to bottom, #f6f6c5 0%, #fff5ff 50%); 
+}
+green {
+    color: linear-gradient(to bottom, #cef9bd 0%, #fff5ff 50%); 
+}
+blue {
+    color: linear-gradient(to bottom, #bfddf8 0%, #fff5ff 50%); 
+}
+navy {
+    color: linear-gradient(to bottom, #cbcffe 0%, #fff5ff 50%); 
+}
+purple {
+    color: linear-gradient(to bottom, #cbcffe 0%, #fff5ff 50%); 
 }
