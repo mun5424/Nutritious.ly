@@ -45,7 +45,6 @@ export default function MyApp() {
                 <div className="image-container">
                   <img className="item-image" src={item.imageURL}></img>
                 </div>
-                <div className="card-body">
                   <div className="card-title-container">
                     <div className="card-title-logo">
                       <img className="logo" src={item.logoURL}></img>
@@ -72,7 +71,6 @@ export default function MyApp() {
                         <div>{item.cholesterol}mg</div>
                         </div>
                     </div>
-                </div>
             <Card.Footer className="card-text-footer">See More</Card.Footer>
           </Card>
       ))
