@@ -44,7 +44,78 @@
             "cholesterol": 75, 
             "imageURL": "https://www.tacobell.com/images/22321_quesadilla_269x269.jpg",
             "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+        },
+        {
+            "name": "Crunchwrap Supreme",
+            "calories": 540, 
+            "totalFat": 21, 
+            "saturatedFat": 7, 
+            "cholesterol": 20, 
+            "imageURL": "https://www.tacobell.com/images/22362_crunchwrap_supreme_750x660.jpg",
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+        },
+        {
+            "name": "Soft Taco - Chicken",
+            "calories": 540, 
+            "totalFat": 21, 
+            "saturatedFat": 7, 
+            "cholesterol": 20, 
+            "imageURL": "https://www.tacobell.com/images/22110_soft_taco_269x269.jpg",
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+        },
+        {
+            "name": "Soft Taco - Beef",
+            "calories": 160, 
+            "totalFat": 5, 
+            "saturatedFat": 2.5, 
+            "cholesterol": 30, 
+            "imageURL": "https://www.tacobell.com/images/22110_soft_taco_269x269.jpg",
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+        },
+        {
+            "name": "Burrito Supreme - Beef",
+            "calories": 390, 
+            "totalFat": 14, 
+            "saturatedFat": 6, 
+            "cholesterol": 25, 
+            "imageURL": "https://www.tacobell.com/images/22201_burrito_supreme_269x269.jpg",
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+        },
+        {
+            "name": "Jumbo Jack w/ Cheese",
+            "calories": 490, 
+            "totalFat": 30, 
+            "saturatedFat": 13, 
+            "cholesterol": 80, 
+            "imageURL": "https://images.ctfassets.net/12j9yju0rltk/1Vi0UNm0nOhdUaNvQ9NDBs/f6c1989c04cec250dbfc93d08f016a2e/Jumbo_Jack_Cheeseburger.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+        },
+        {
+            "name": "Bacon Ultimate Cheeseburger",
+            "calories": 910, 
+            "totalFat": 56, 
+            "saturatedFat": 24, 
+            "cholesterol": 165, 
+            "imageURL": "https://images.ctfassets.net/12j9yju0rltk/4UtUSutEUFZUiTySwgR9ZB/744d3ce4b6765d65cc9baca4605f5efa/Bacon-Ultimate-Cheeseburger.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+        },
+        {
+            "name": "Classic Buttery Jack",
+            "calories": 910, 
+            "totalFat": 56, 
+            "saturatedFat": 24, 
+            "cholesterol": 165, 
+            "imageURL": "https://images.ctfassets.net/12j9yju0rltk/4UtUSutEUFZUiTySwgR9ZB/744d3ce4b6765d65cc9baca4605f5efa/Bacon-Ultimate-Cheeseburger.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+        },
+        {
+            "name": "Jr Bacon Cheeserburger",
+            "calories": 390, 
+            "totalFat": 21, 
+            "saturatedFat": 8, 
+            "cholesterol": 45, 
+            "imageURL": "https://images.ctfassets.net/12j9yju0rltk/41g5uecHhsxAHuAcByAryN/e47e1e8071d916849845afaeceb521d4/Jr._Bacon_Cheeseburger.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
         }
-
     ]
 }
