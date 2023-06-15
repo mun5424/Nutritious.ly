@@ -71,7 +71,6 @@ export default function MyApp() {
                         <div>{item.cholesterol}mg</div>
                         </div>
                     </div>
-            <Card.Footer className="card-text-footer">See More</Card.Footer>
           </Card>
       ))
     }
@@ -100,33 +99,55 @@ export default function MyApp() {
     );
   }
 
+  function navbar() {
+    return (
+      <div className="navbar">
+        <Navbar className="header-font-bold" expand="lg">
+        <Navbar.Brand className="brand-font" href="#home"> 
+          Nut
+          <span className="calories">r</span>i
+          <span className="cholesterol">t</span>i
+          <span className="totalfat">o</span>u
+          <span className="saturatedfat">s</span>.ly
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Collapse id="basic-navbar-nav"> 
+          <Nav>
+            <Nav.Link>Home</Nav.Link>
+            <Nav.Link>Food</Nav.Link>
+            <Nav.Link>About</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Navbar>
+      </div>
+
+    )
+  }
+
+  function footer() {
+    return (
+      <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small> Created by Charlie Oh @mun5424. This application is for educational purposes and not for any kind of monetary profit. </small>
+      </div>
+    </footer>
+    )
+  }
+
   return (
-    <Container className="container">
-      <Navbar className="header-font-bold" expand="lg">
-          <Navbar.Brand className="brand-font" href="#home"> 
-            Nut
-            <span className="calories">r</span>i
-            <span className="cholesterol">t</span>i
-            <span className="totalfat">o</span>u
-            <span className="saturatedfat">s</span>.ly
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-          <Navbar.Collapse id="basic-navbar-nav"> 
-            <Nav>
-              <Nav.Link>Home</Nav.Link>
-              <Nav.Link>Food</Nav.Link>
-              <Nav.Link>About</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-      </Navbar>
-      <Row>
-        {buttonComponents()}
-      </Row>
-      <Row>
-        {renderFoodCards(foods)}
-      </Row>
-    </Container>
-  )
+    <div>
+      {navbar()}
+      <div className="container">
+        <Row>
+          {buttonComponents()}
+        </Row>
+        <Row>
+          {renderFoodCards(foods)}
+        </Row>
+      </div>
+      {footer()}
+    </div> 
+     )
 
   
 
