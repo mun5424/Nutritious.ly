@@ -29,6 +29,8 @@ export default function MyApp() {
   ]
 
   const [foods, setFoods] = useState(jsonFoods);
+  const [searchInput, setSearchInput] = useState("");
+
 
   function shuffleCards() {
     for (let i = 0; i < foods.length - 1; i++) {
@@ -115,6 +117,13 @@ export default function MyApp() {
     );
   }
 
+  function handleSearchChange(text) {
+    const filteredFoods = foods.filter(food => {
+      return food.name.match(text);
+    })
+    setSearchInput(text);
+  }
+
   function navbar() {
     return (
       <Container className="navbar">
@@ -142,6 +151,7 @@ export default function MyApp() {
                 placeholder="Search"
                 className="me-2"
                 aria-label="Search"
+                onChange={(text) => handleSearchChange(text)}
               />
               <Button variant="outline-success">Search</Button>
           </Form>
