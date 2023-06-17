@@ -117,11 +117,12 @@ export default function MyApp() {
     );
   }
 
-  function handleSearchChange(text) {
-    const filteredFoods = foods.filter(food => {
-      return food.name.match(text);
+  function handleSearchChange(e) {
+    const filteredFoods = jsonFoods.filter(food => {
+      return food.name.toLowerCase().match(e.target.value.toLowerCase());
     })
-    setSearchInput(text);
+    setFoods([...filteredFoods]);
+    setSearchInput(e.target.value);
   }
 
   function navbar() {
