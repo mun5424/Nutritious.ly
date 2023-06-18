@@ -7,7 +7,8 @@
             "saturatedFat": 11, 
             "cholesterol": 170, 
             "imageURL": "https://images.prismic.io/raisingcanes/NjcwNWUzYzctNzM5My00MmFkLWI1N2EtM2FiZThiYjdiMDA1_363886a1-6d76-4abd-99eb-9e6609c0c247_box_combo_new.png",
-            "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
+            "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png",
+            "vendor": "Raising Cane's"
         }, 
         {
             "name": "3-Finger Combo",
@@ -16,7 +17,8 @@
             "saturatedFat": 9, 
             "cholesterol": 125, 
             "imageURL": "https://images.prismic.io/raisingcanes/YzA3ZDIwYmUtMzAwYy00YTRkLTk1NjAtMWQ3ZGZhMWE2YzBk_d643d63f-1766-4434-b936-ae6aed6ed7a5_3finger_combo_new.png",
-            "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
+            "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png",
+            "vendor": "Raising Cane's"
         }, 
         {
             "name": "Sandwich Combo",
@@ -25,7 +27,8 @@
             "saturatedFat": 8, 
             "cholesterol": 120, 
             "imageURL": "https://images.prismic.io/raisingcanes/NWY1YTA5ZGItMjAzYi00MjI5LTllNzgtOTk5NjJlMWExNzNh_6313f8a3-cb33-4cb4-ade0-636558cc9622_sandwich_combo_new.png",
-            "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png"
+            "logoURL": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png",
+            "vendor": "Raising Cane's"
         },
         {
             "name": "Chipotle Burrito Al Pastor",
@@ -34,7 +37,8 @@
             "saturatedFat": 11, 
             "cholesterol": 125, 
             "imageURL": "https://www.chipotle.com/content/dam/chipotle/global/menu/meal-types/cmg-10001-burrito/web-desktop/order.png",
-            "logoURL": "https://www.chipotle.com/content/dam/poc/order/images/logos/cmg-medallion-logo.svg"
+            "logoURL": "https://www.chipotle.com/content/dam/poc/order/images/logos/cmg-medallion-logo.svg",
+            "vendor": "Chipotle"
         },
         {
             "name": "Chicken Quesadilla",
@@ -43,7 +47,8 @@
             "saturatedFat": 13, 
             "cholesterol": 75, 
             "imageURL": "https://www.tacobell.com/images/22321_quesadilla_269x269.jpg",
-            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png",
+            "vendor": "Taco Bell"
         },
         {
             "name": "Crunchwrap Supreme",
@@ -52,7 +57,8 @@
             "saturatedFat": 7, 
             "cholesterol": 20, 
             "imageURL": "https://www.tacobell.com/images/22362_crunchwrap_supreme_750x660.jpg",
-            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png",
+            "vendor": "Taco Bell"
         },
         {
             "name": "Soft Taco - Chicken",
@@ -61,7 +67,8 @@
             "saturatedFat": 7, 
             "cholesterol": 20, 
             "imageURL": "https://www.tacobell.com/images/22110_soft_taco_269x269.jpg",
-            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png",
+            "vendor": "Taco Bell"
         },
         {
             "name": "Soft Taco - Beef",
@@ -70,7 +77,8 @@
             "saturatedFat": 2.5, 
             "cholesterol": 30, 
             "imageURL": "https://www.tacobell.com/images/22110_soft_taco_269x269.jpg",
-            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png",
+            "vendor": "Taco Bell"
         },
         {
             "name": "Burrito Supreme - Beef",
@@ -79,7 +87,8 @@
             "saturatedFat": 6, 
             "cholesterol": 25, 
             "imageURL": "https://www.tacobell.com/images/22201_burrito_supreme_269x269.jpg",
-            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png"
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png",
+            "vendor": "Taco Bell"
         },
         {
             "name": "Jumbo Jack w/ Cheese",
@@ -88,7 +97,8 @@
             "saturatedFat": 13, 
             "cholesterol": 80, 
             "imageURL": "https://images.ctfassets.net/12j9yju0rltk/1Vi0UNm0nOhdUaNvQ9NDBs/f6c1989c04cec250dbfc93d08f016a2e/Jumbo_Jack_Cheeseburger.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png",
+            "vendor": "Jack in the Box"
         },
         {
             "name": "Bacon Ultimate Cheeseburger",
@@ -97,7 +107,8 @@
             "saturatedFat": 24, 
             "cholesterol": 165, 
             "imageURL": "https://images.ctfassets.net/12j9yju0rltk/4UtUSutEUFZUiTySwgR9ZB/744d3ce4b6765d65cc9baca4605f5efa/Bacon-Ultimate-Cheeseburger.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png",
+            "vendor": "Jack in the Box"
         },
         {
             "name": "Classic Buttery Jack",
@@ -106,7 +117,8 @@
             "saturatedFat": 24, 
             "cholesterol": 165, 
             "imageURL": "https://images.ctfassets.net/12j9yju0rltk/4UtUSutEUFZUiTySwgR9ZB/744d3ce4b6765d65cc9baca4605f5efa/Bacon-Ultimate-Cheeseburger.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png",
+            "vendor": "Jack in the Box"
         },
         {
             "name": "Jr Bacon Cheeserburger",
@@ -115,7 +127,8 @@
             "saturatedFat": 8, 
             "cholesterol": 45, 
             "imageURL": "https://images.ctfassets.net/12j9yju0rltk/41g5uecHhsxAHuAcByAryN/e47e1e8071d916849845afaeceb521d4/Jr._Bacon_Cheeseburger.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Jack_in_the_Box_2022_logo.svg/225px-Jack_in_the_Box_2022_logo.svg.png",
+            "vendor": "Jack in the Box"
         },
         {
             "name": "Dave's Double®",
@@ -124,7 +137,8 @@
             "saturatedFat": 23, 
             "cholesterol": 135, 
             "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/2_medium_US_en.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png",
+            "vendor": "Wendy's"
         },
         {
             "name": "Classic Chicken Sandwich",
@@ -133,7 +147,8 @@
             "saturatedFat": 3.5, 
             "cholesterol": 75, 
             "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/2900_medium_US_en.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png",
+            "vendor": "Wendy's"
         },
         {
             "name": "10 PC. Chicken Nuggets",
@@ -142,7 +157,8 @@
             "saturatedFat": 6, 
             "cholesterol": 80, 
             "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/248_medium_US_en.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png",
+            "vendor": "Wendy's"
         },
         {
             "name": "Chili Cheese Fries",
@@ -151,7 +167,8 @@
             "saturatedFat": 12, 
             "cholesterol": 50, 
             "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/435_medium_US_en.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png",
+            "vendor": "Wendy's"
         },
         {
             "name": "Chili & Cheese Baked Potato",
@@ -160,7 +177,8 @@
             "saturatedFat": 7, 
             "cholesterol": 35, 
             "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/2165_medium_US_en.png",
-            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png"
+            "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png",
+            "vendor": "Wendy's"
         }
     ]
 }
