@@ -179,6 +179,78 @@
             "imageURL": "https://app.wendys.com/unified/assets/menu/cropped/2165_medium_US_en.png",
             "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/225px-Wendy%27s_full_logo_2012.svg.png",
             "vendor": "Wendy's"
+        },
+        {
+            "name": "Big Mac®",
+            "calories": 590, 
+            "totalFat": 34, 
+            "saturatedFat": 11, 
+            "cholesterol": 85, 
+            "carbs": 46, 
+            "protein": 25,
+            "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_201907_0005_BigMac_832x472:1-4-product-tile-desktop",
+            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "vendor": "McDonald's"
+        },
+        {
+            "name": "Spicy McCrispy™",
+            "calories": 530, 
+            "totalFat": 26, 
+            "saturatedFat": 4, 
+            "cholesterol": 65, 
+            "carbs": 48, 
+            "protein": 27,
+            "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202012_0116_SpicyCrispyChicken_PotatoBun_832x472:1-4-product-tile-desktop",
+            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "vendor": "McDonald's"
+        },
+        {
+            "name": "10-piece Chicken Nuggets",
+            "calories": 410, 
+            "totalFat": 24, 
+            "saturatedFat": 4, 
+            "cholesterol": 65, 
+            "carbs": 26, 
+            "protein": 23,
+            "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202208_5280_10McNuggets_Stacked_832x472:product-header-desktop",
+            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "vendor": "McDonald's"
+        },
+        {
+            "name": "Quarter Pounder with Cheese",
+            "calories": 520, 
+            "totalFat": 26, 
+            "saturatedFat": 12, 
+            "cholesterol": 95, 
+            "carbs": 42, 
+            "protein": 30,
+            "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202201_0007-005_QuarterPounderwithCheese_832x472:product-header-desktop?wid=830&hei=458&dpr=off",
+            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "vendor": "McDonald's"
+        },
+        {
+            "name": "Egg McMuffin®",
+            "calories": 310, 
+            "totalFat": 13, 
+            "saturatedFat": 6, 
+            "cholesterol": 250, 
+            "carbs": 30, 
+            "protein": 17,
+            "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202004_0046_EggMcMuffin_832x472:product-header-desktop?wid=830&hei=458&dpr=off",
+            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "vendor": "McDonald's"
+        },
+        {
+            "name": "Egg McMuffin®",
+            "calories": 310, 
+            "totalFat": 13, 
+            "saturatedFat": 6, 
+            "cholesterol": 250, 
+            "carbs": 30, 
+            "protein": 17,
+            "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202004_0046_EggMcMuffin_832x472:product-header-desktop?wid=830&hei=458&dpr=off",
+            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "vendor": "McDonald's"
         }
     ]
 }
