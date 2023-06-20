@@ -251,6 +251,42 @@
             "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202004_0046_EggMcMuffin_832x472:product-header-desktop?wid=830&hei=458&dpr=off",
             "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
             "vendor": "McDonald's"
+        },
+        {
+            "name": "Spicy Grilled Chicken Burrito",
+            "calories": 520, 
+            "totalFat": 16, 
+            "saturatedFat": 5, 
+            "cholesterol": 60, 
+            "carbs": 68, 
+            "protein": 25,
+            "imageURL": "https://deltaco.com/files/menu/item/DEL-324-Promo-6_Spicy-Grilled-Chix-Burrito_450x355.jpg?v=4.027",
+            "logoURL": "https://deltaco.com/images/logo-dt-better-mex.png",
+            "vendor": "Del Taco"
+        },
+        {
+            "name": "Grilled Chicken Taco",
+            "calories": 210, 
+            "totalFat": 12, 
+            "saturatedFat": 3, 
+            "cholesterol": 45, 
+            "carbs": 15, 
+            "protein": 11,
+            "imageURL": "https://deltaco.com/files/menu/item/DEL-022-Promo-2-Website_Thumbnail_Grilled-Chicken-Soft-Taco_450x355.jpg?v=4.027",
+            "logoURL": "https://deltaco.com/images/logo-dt-better-mex.png",
+            "vendor": "Del Taco"
+        },
+        {
+            "name": "Epic Fresh Guacamole Burrito - Chicken",
+            "calories": 720, 
+            "totalFat": 25, 
+            "saturatedFat": 4.5, 
+            "cholesterol": 90, 
+            "carbs": 87, 
+            "protein": 37,
+            "imageURL": "https://deltaco.com/files/menu/item/DEL-116_Promo4_Category_Image_Epic_Fresh_450x355.jpg?v=4.027",
+            "logoURL": "https://deltaco.com/images/logo-dt-better-mex.png",
+            "vendor": "Del Taco"
         }
     ]
 }
