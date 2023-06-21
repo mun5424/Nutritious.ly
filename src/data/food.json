@@ -287,6 +287,54 @@
             "imageURL": "https://deltaco.com/files/menu/item/DEL-116_Promo4_Category_Image_Epic_Fresh_450x355.jpg?v=4.027",
             "logoURL": "https://deltaco.com/images/logo-dt-better-mex.png",
             "vendor": "Del Taco"
+        },
+        {
+            "name": "Deluxe Chicken Sandwich",
+            "calories": 490, 
+            "totalFat": 22, 
+            "saturatedFat": 6, 
+            "cholesterol": 85, 
+            "carbs": 43, 
+            "protein": 32,
+            "imageURL": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Entree/Entree%20PDP/_0000s_0004_NEWStack6200001CFAPDPDeluxeSandwich1085png.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chick-fil-A_Logo.svg/582px-Chick-fil-A_Logo.svg.png?20131028134641",
+            "vendor": "Chick-Fil-A"
+        },
+        {
+            "name": "Chicken Nuggets -12 pc",
+            "calories": 200, 
+            "totalFat": 4.5, 
+            "saturatedFat": 1, 
+            "cholesterol": 130, 
+            "carbs":2, 
+            "protein": 38,
+            "imageURL": "https://www.cfacdn.com/img/order/menu/Online/Entrees/nuggets_8ct_PDP.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chick-fil-A_Logo.svg/582px-Chick-fil-A_Logo.svg.png?20131028134641",
+            "vendor": "Chick-Fil-A"
+        },
+        {
+            "name": "Spicy Chicken Sandwich",
+            "calories": 450, 
+            "totalFat": 19, 
+            "saturatedFat": 4, 
+            "cholesterol": 65, 
+            "carbs": 45, 
+            "protein": 28,
+            "imageURL": "https://www.cfacdn.com/img/order/menu/Online/Entrees/CFASpicySandwich_1080.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chick-fil-A_Logo.svg/582px-Chick-fil-A_Logo.svg.png?20131028134641",
+            "vendor": "Chick-Fil-A"
+        },
+        {
+            "name": "Chicken Tender Strips - 4 pc",
+            "calories": 410, 
+            "totalFat": 19, 
+            "saturatedFat": 3.5, 
+            "cholesterol": 100, 
+            "carbs": 22, 
+            "protein": 39,
+            "imageURL": "https://www.cfacdn.com/img/order/menu/Online/Entrees/strips_3ct_PDP.png",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chick-fil-A_Logo.svg/582px-Chick-fil-A_Logo.svg.png?20131028134641",
+            "vendor": "Chick-Fil-A"
         }
     ]
 }
