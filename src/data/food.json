@@ -51,6 +51,16 @@
             "vendor": "Taco Bell"
         },
         {
+            "name": "Grilled Cheese Burrito",
+            "calories": 710, 
+            "totalFat": 39, 
+            "saturatedFat": 15, 
+            "cholesterol": 75, 
+            "imageURL": "https://www.tacobell.com/images/22963_beef_grilled_cheese_burrito_750x660.jpg",
+            "logoURL": "https://cdn.cookielaw.org/logos/94ba57b5-e5fc-4459-a91d-28bc381b6185/4d184cf0-49a3-428c-bd2a-a761d4b9a22d/9b0f8204-596e-41aa-bb2d-e929c0663932/Tacobell.comLogo.png",
+            "vendor": "Taco Bell"
+        },
+        {
             "name": "Crunchwrap Supreme",
             "calories": 540, 
             "totalFat": 21, 
@@ -189,7 +199,7 @@
             "carbs": 46, 
             "protein": 25,
             "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_201907_0005_BigMac_832x472:1-4-product-tile-desktop",
-            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "logoURL": "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
             "vendor": "McDonald's"
         },
         {
@@ -201,7 +211,7 @@
             "carbs": 48, 
             "protein": 27,
             "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202012_0116_SpicyCrispyChicken_PotatoBun_832x472:1-4-product-tile-desktop",
-            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "logoURL": "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
             "vendor": "McDonald's"
         },
         {
@@ -213,7 +223,7 @@
             "carbs": 26, 
             "protein": 23,
             "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202208_5280_10McNuggets_Stacked_832x472:product-header-desktop",
-            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "logoURL": "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
             "vendor": "McDonald's"
         },
         {
@@ -225,7 +235,7 @@
             "carbs": 42, 
             "protein": 30,
             "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202201_0007-005_QuarterPounderwithCheese_832x472:product-header-desktop?wid=830&hei=458&dpr=off",
-            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "logoURL": "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
             "vendor": "McDonald's"
         },
         {
@@ -237,7 +247,7 @@
             "carbs": 30, 
             "protein": 17,
             "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202004_0046_EggMcMuffin_832x472:product-header-desktop?wid=830&hei=458&dpr=off",
-            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "logoURL": "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
             "vendor": "McDonald's"
         },
         {
@@ -249,7 +259,7 @@
             "carbs": 30, 
             "protein": 17,
             "imageURL": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202004_0046_EggMcMuffin_832x472:product-header-desktop?wid=830&hei=458&dpr=off",
-            "logoURL": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+            "logoURL": "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
             "vendor": "McDonald's"
         },
         {
