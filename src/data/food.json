@@ -345,6 +345,42 @@
             "imageURL": "https://www.cfacdn.com/img/order/menu/Online/Entrees/strips_3ct_PDP.png",
             "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chick-fil-A_Logo.svg/582px-Chick-fil-A_Logo.svg.png?20131028134641",
             "vendor": "Chick-Fil-A"
+        },
+        {
+            "name": "Hamburger w/ Onion",
+            "calories": 390, 
+            "totalFat": 19, 
+            "saturatedFat": 5, 
+            "cholesterol": 40, 
+            "carbs": 39, 
+            "protein": 16,
+            "imageURL": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/menu/hamburger-meal.png?package=INNOUT&v=2023",
+            "logoURL": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/logo-2021.svg?package=INNOUT",
+            "vendor": "In-N-Out"
+        },
+        {
+            "name": "Double-Double W/ Onion",
+            "calories": 670, 
+            "totalFat": 41, 
+            "saturatedFat": 18, 
+            "cholesterol": 120, 
+            "carbs": 39, 
+            "protein": 37,
+            "imageURL": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/menu/double-double-meal.png?package=INNOUT&v=2023",
+            "logoURL": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/logo-2021.svg?package=INNOUT",
+            "vendor": "In-N-Out"
+        },
+        {
+            "name": "French Fries",
+            "calories": 370, 
+            "totalFat": 15, 
+            "saturatedFat": 1.5, 
+            "cholesterol": 0, 
+            "carbs": 52, 
+            "protein": 6,
+            "imageURL": "https://www.in-n-out.com/Frontend-Assembly/Telerik.Sitefinity.Frontend/content/images/menu/fries/fries.jpg?v=2023&package=INNOUT",
+            "logoURL": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/logo-2021.svg?package=INNOUT",
+            "vendor": "In-N-Out"
         }
     ]
 }
