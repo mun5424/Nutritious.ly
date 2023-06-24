@@ -381,6 +381,18 @@
             "imageURL": "https://www.in-n-out.com/Frontend-Assembly/Telerik.Sitefinity.Frontend/content/images/menu/fries/fries.jpg?v=2023&package=INNOUT",
             "logoURL": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/logo-2021.svg?package=INNOUT",
             "vendor": "In-N-Out"
+        },
+        {
+            "name": "4pc Legs & Thighs",
+            "calories": 880, 
+            "totalFat": 60, 
+            "saturatedFat": 24, 
+            "cholesterol": 180, 
+            "carbs": 24, 
+            "protein": 56,
+            "imageURL": "https://assets3.thrillist.com/v1/image/3088094/1200x600/scale",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Popeyes_logo.svg/1841px-Popeyes_logo.svg.png",
+            "vendor": "Popeyes"
         }
     ]
 }
