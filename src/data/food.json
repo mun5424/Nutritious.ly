@@ -393,6 +393,18 @@
             "imageURL": "https://assets3.thrillist.com/v1/image/3088094/1200x600/scale",
             "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Popeyes_logo.svg/1841px-Popeyes_logo.svg.png",
             "vendor": "Popeyes"
+        },
+        {
+            "name": "Double Beef & Cheddar",
+            "calories": 610, 
+            "totalFat": 31, 
+            "saturatedFat": 11, 
+            "cholesterol": 100, 
+            "carbs": 34, 
+            "protein": 38,
+            "imageURL": "https://images.ctfassets.net/o19mhvm9a2cm/3WxT6wv4Ya3Qh4UbDuXehw/03d4944347e636e4db0b66e5e576fe40/Website_RB_BNC_Double.png",
+            "logoURL": "https://arbys.ca/images/arbys-logo.svg",
+            "vendor": "Arby's"
         }
     ]
 }
