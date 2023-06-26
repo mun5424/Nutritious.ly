@@ -395,6 +395,30 @@
             "vendor": "Popeyes"
         },
         {
+            "name": "Chicken Sandwich",
+            "calories": 700, 
+            "totalFat": 42, 
+            "saturatedFat": 14, 
+            "cholesterol": 90, 
+            "carbs": 50, 
+            "protein": 28,
+            "imageURL": "https://cdn.sanity.io/images/czqk28jt/prod_plk_us/342bf8db7be06612735493dfd64b5b57c932bc9c-2000x1333.png?w=750&q=40&fit=max&auto=format",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Popeyes_logo.svg/1841px-Popeyes_logo.svg.png",
+            "vendor": "Popeyes"
+        },
+        {
+            "name": "5pc Tenders",
+            "calories": 740, 
+            "totalFat": 34, 
+            "saturatedFat": 14, 
+            "cholesterol": 170, 
+            "carbs": 48, 
+            "protein": 63,
+            "imageURL": "https://cdn.sanity.io/images/czqk28jt/prod_plk_us/2ce4dcb6e751996b2d7207429fb9eb687328cdc3-2000x1333.png?w=750&q=40&fit=max&auto=format",
+            "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Popeyes_logo.svg/1841px-Popeyes_logo.svg.png",
+            "vendor": "Popeyes"
+        },
+        {
             "name": "Double Beef & Cheddar",
             "calories": 610, 
             "totalFat": 31, 
